@@ -1,6 +1,7 @@
 ## Task 2: REST API with Relations and Multiple CRUD Operations
 Objective
 
+
 Create a REST API that manages authors and their books, demonstrating relations and multiple CRUD operations.
 
 Requirements
@@ -58,4 +59,5 @@ Update a specific book by ID for a specific author
     "publishedDate": "1925-04-10"
   }
 Delete a specific book by ID for a specific author
+  DELETE /authors/1/books/1ic book by ID for a specific author
   DELETE /authors/1/books/1
